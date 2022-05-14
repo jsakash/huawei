@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+}
+
+.header{
+   
+   width: 100%;
+   padding-top: 20px;
+
+/* background-color: aqua; */
+  
+   
+}
+.content-paragraph a{
+    padding-left: 100px;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.Harrange {
+    display: flex;
+    /* background-color: brown; */
+    padding-top: 10px;
+    margin-left: 10px;
+    
+    
+    
+    
+}
+   
+#img{
+   width: 200px;
+   height: 50px;
+   padding-left: 100px;
+   /* background-color: blue; */
+}
+.arrange{
+    display: flex;
+
+}
+.icon {
+    display: flex;
+    /* background-color: blueviolet; */
+    padding-left: 150px;
+    
+    height: 40px;
+    
+    
+    
+    
+}
+#cart{
+    width: 20px;
+    height: 20px;
+    
+}
+#carticon{
+   
+    margin-left: 10px;
+    margin-top: 7px;
+    
+}
+#buy {
+    
+    margin-left: 5px;
+    margin-top: 11px;
+    text-decoration: none;
+}
+#buy a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#search{
+    width:20px ;
+    height: 20px;
+}
+#searchicon{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+#img1{
+   background-image: url(https://www-file.huawei.com/-/media/corp2020/home/banner/5/p50-pocket-en.jpg);
+   height: 645px;
+   background-size: cover;
+   
+   
+}
+#img1 button{
+    margin-top: 30%;
+    margin-left: 50%;
+    width: 170px;
+    height: 40px;
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    font-size: medium;
+    
+}
+#img1 button:hover{
+    background-color:rgb(202, 32, 32);
+    color: whitesmoke;
+    border-color:rgb(202, 32, 32) ;
+
+}
+
+.title-box{
+    padding-left: 50%;
+    margin-top: 30px;
+    width: 80px;
+    font-weight: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2{
+    width: 180px;
+    height: 54px;
+    
+}
+hr{
+    margin-left: 54px;
+    width: 60px;
+    border: solid rgb(166, 17, 17) 1px;
+}
+
+.imgsection1{
+    /* background-color: blue;  */
+    display: flex;
+    height: 540px;
+}
+.img2{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/cbg/1/matebook-e-p.jpg);
+    height: 450px; 
+    margin-top: 50px;
+    width: 55%;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+    /* background-color: aqua;  */
+    
+    
+    
+}
+
+
+
+
+.imgpara{ 
+    height: 450px;
+    padding-top: 350px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img3{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/cbg/1/jt-banner-m2.jpg);
+    width: 550px;
+    height: 445px; 
+    margin-top: 49px;
+    margin-left: 30px;
+    
+    background-repeat: no-repeat;
+   
+}
+
+.imgsection2{
+    display: flex;
+    height: 550px;
+    /* background-color: blue; */
+    height:490px;
+}
+.img4{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/cbg/03/4-gt3-p.jpg);
+    width: 55%;
+    height: 450px;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+}
+
+.img5{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/cbg/1221/2-p50-pro-pc.jpg);
+    width: 550px;
+    height: 445px; 
+    margin-left: 30px;
+    background-repeat: no-repeat;
+   
+}
+
+.imgsection3{
+    display: flex;
+    height: 450px;
+    /* background-color: black; */
+}
+.img6{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/2/recruitment5.jpg);
+    width: 30%;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+    
+}   
+.img7{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/2/6g.jpg);
+    width: 30%;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+}
+.img8{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/box/2/green-2030-en.jpg);
+    width: 27%;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+}
+#imgbanner{
+    background-image: url(https://www-file.huawei.com/-/media/corp2020/home/sbanner/1/snow-leopard-en.jpg);
+    height: 645px;
+    margin-top: 100px;
+}
+#imgbanner button{
+    margin-top: 24%;
+    margin-left: 260px;
+    width: 170px;
+    height: 40px;
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    font-size: medium;
+
+}
+#imgbanner button:hover{
+    background-color:rgb(202, 32, 32);
+    color: whitesmoke;
+    border-color:rgb(202, 32, 32) ;
+}
+#title-box2{
+    padding-left: 50%;
+    margin-top: 30px;
+    width: 80px;
+    font-weight: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2{
+    width: 300px;
+    height: 54px;
+    
+}
+#second{
+   
+    width: 80px;
+    border: solid rgb(166, 17, 17) 1px;
+}
+.newssection{
+    display: flex;
+}
+#sec1{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.txt-box{
+    width: 308px;
+   background-color: #f8f8f8;
+   height: 420px;
+}
+.txt{
+    
+    margin-left: 25px;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.licon{
+    /* display: flex; */
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.cap{
+    margin-top: 5px;
+    font-family: monospace;
+}
+#sec2{
+    width: 308px;
+    height: 420px;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+
+}
+#sec3{
+    width: 308px;
+    height: 420px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.lasttxt{
+    margin-left: 15px;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#lasttxt1{
+    /* margin-left: 1px; */
+    margin-top: 30px;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#lasttxt2{
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.button3{
+    display: flex;
+}
+.button3 button{
+    width: 170px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 40%;
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    font-size: medium;
+    
+}
+.button3 button:hover{
+    background-color:rgb(202, 32, 32);
+    color: whitesmoke;
+    border-color:rgb(202, 32, 32) ;
+}
+.footer-container{
+    width: 100%;
+    height: 640px;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+}
+.home-search{
+    width: 100%;
+    height: 70px;
+    padding-top: 30px;
+    /* background-color:aquamarine; */
+    display: flex;
+}
+.home{
+    margin-left:10rem ;
+    padding-top: 20px;
+    /* background-color: coral; */
+
+}
+.home a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search2{
+    /* width: 480px; */
+    margin-top: 10px;
+    margin-left: 50rem;
+    
+    /* background-color: blue; */
+    
+}
+ .search2 input{
+    width: 480px;
+    height: 48px;
+    border: solid;
+    border-width: 1px;
+    
+}
+.footer{
+    display: flex;
+    margin-top: 50px;
+    /* flex-direction: column; */
+}
+.head-align-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-heading-1{
+    margin-left: 10rem;
+    /* padding-top: 30px; */
+}
+.head-align-1 a{
+    padding-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head-align-1 h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.b-section{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+     /* background-color: orange;  */
+    
+}
+.b-sec-1{
+    display: flex;
+    margin-left: 8rem;
+}
+.b-sec-1 a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#bot{
+    margin-top: 50px;
+    margin-left: 8rem;
+    width: 80%;
+    border: solid rgba(79, 74, 74, 0.161);
+    border-width: .1px;
+}
+.social-icon{
+    margin-left: 46rem;
+    height: 35px;
+    /* background-color: aquamarine; */
+}
+.last-sec{
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    padding-top: 10px;
+    display: flex;
+    background-color: #e6e6e6; 
+}
+.l-sec-1{
+    width: fit-content;
+    margin-left: 30rem;
+    font-size: small;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: chartreuse; */
+}
+.l-sec-2{
+    margin-left: 8rem;
+    
+}
+.l-sec-2 a{
+    text-decoration: none;
+    padding-right: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    color: black;
+}
+
+
+
+    
+
+
+
+
+
